@@ -9,44 +9,21 @@
 /* Begin PBXBuildFile section */
 		52DBAEE81C0BCA6900C22BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DBAEE71C0BCA6900C22BF5 /* AppDelegate.swift */; };
 		52DBAEEA1C0BCA6900C22BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DBAEE91C0BCA6900C22BF5 /* ViewController.swift */; };
-		52DBAEED1C0BCA6900C22BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DBAEEB1C0BCA6900C22BF5 /* Main.storyboard */; };
 		52DBAEEF1C0BCA6900C22BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DBAEEE1C0BCA6900C22BF5 /* Assets.xcassets */; };
 		52DBAEF21C0BCA6900C22BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DBAEF01C0BCA6900C22BF5 /* LaunchScreen.storyboard */; };
-		52DBAEFD1C0BCA6900C22BF5 /* tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DBAEFC1C0BCA6900C22BF5 /* tableviewTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		52DBAEF91C0BCA6900C22BF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52DBAEDC1C0BCA6900C22BF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52DBAEE31C0BCA6900C22BF5;
-			remoteInfo = tableview;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		52DBAEE41C0BCA6900C22BF5 /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DBAEE71C0BCA6900C22BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52DBAEE91C0BCA6900C22BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52DBAEEC1C0BCA6900C22BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52DBAEEE1C0BCA6900C22BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DBAEF11C0BCA6900C22BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DBAEF31C0BCA6900C22BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52DBAEF81C0BCA6900C22BF5 /* tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52DBAEFC1C0BCA6900C22BF5 /* tableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewTests.swift; sourceTree = "<group>"; };
-		52DBAEFE1C0BCA6900C22BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		52DBAEE11C0BCA6900C22BF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52DBAEF51C0BCA6900C22BF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				52DBAEE61C0BCA6900C22BF5 /* tableview */,
-				52DBAEFB1C0BCA6900C22BF5 /* tableviewTests */,
 				52DBAEE51C0BCA6900C22BF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				52DBAEE41C0BCA6900C22BF5 /* tableview.app */,
-				52DBAEF81C0BCA6900C22BF5 /* tableviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,21 +54,11 @@
 			children = (
 				52DBAEE71C0BCA6900C22BF5 /* AppDelegate.swift */,
 				52DBAEE91C0BCA6900C22BF5 /* ViewController.swift */,
-				52DBAEEB1C0BCA6900C22BF5 /* Main.storyboard */,
 				52DBAEEE1C0BCA6900C22BF5 /* Assets.xcassets */,
 				52DBAEF01C0BCA6900C22BF5 /* LaunchScreen.storyboard */,
 				52DBAEF31C0BCA6900C22BF5 /* Info.plist */,
 			);
 			path = tableview;
-			sourceTree = "<group>";
-		};
-		52DBAEFB1C0BCA6900C22BF5 /* tableviewTests */ = {
-			isa = PBXGroup;
-			children = (
-				52DBAEFC1C0BCA6900C22BF5 /* tableviewTests.swift */,
-				52DBAEFE1C0BCA6900C22BF5 /* Info.plist */,
-			);
-			path = tableviewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,24 +81,6 @@
 			productReference = 52DBAEE41C0BCA6900C22BF5 /* tableview.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52DBAEF71C0BCA6900C22BF5 /* tableviewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52DBAF041C0BCA6900C22BF5 /* Build configuration list for PBXNativeTarget "tableviewTests" */;
-			buildPhases = (
-				52DBAEF41C0BCA6900C22BF5 /* Sources */,
-				52DBAEF51C0BCA6900C22BF5 /* Frameworks */,
-				52DBAEF61C0BCA6900C22BF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52DBAEFA1C0BCA6900C22BF5 /* PBXTargetDependency */,
-			);
-			name = tableviewTests;
-			productName = tableviewTests;
-			productReference = 52DBAEF81C0BCA6900C22BF5 /* tableviewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,10 +93,6 @@
 				TargetAttributes = {
 					52DBAEE31C0BCA6900C22BF5 = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					52DBAEF71C0BCA6900C22BF5 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 52DBAEE31C0BCA6900C22BF5;
 					};
 				};
 			};
@@ -167,7 +110,6 @@
 			projectRoot = "";
 			targets = (
 				52DBAEE31C0BCA6900C22BF5 /* tableview */,
-				52DBAEF71C0BCA6900C22BF5 /* tableviewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,14 +121,6 @@
 			files = (
 				52DBAEF21C0BCA6900C22BF5 /* LaunchScreen.storyboard in Resources */,
 				52DBAEEF1C0BCA6900C22BF5 /* Assets.xcassets in Resources */,
-				52DBAEED1C0BCA6900C22BF5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52DBAEF61C0BCA6900C22BF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,33 +136,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52DBAEF41C0BCA6900C22BF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52DBAEFD1C0BCA6900C22BF5 /* tableviewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		52DBAEFA1C0BCA6900C22BF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52DBAEE31C0BCA6900C22BF5 /* tableview */;
-			targetProxy = 52DBAEF91C0BCA6900C22BF5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		52DBAEEB1C0BCA6900C22BF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52DBAEEC1C0BCA6900C22BF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52DBAEF01C0BCA6900C22BF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,30 +255,6 @@
 			};
 			name = Release;
 		};
-		52DBAF051C0BCA6900C22BF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = tableviewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.tableviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview.app/tableview";
-			};
-			name = Debug;
-		};
-		52DBAF061C0BCA6900C22BF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = tableviewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.tableviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview.app/tableview";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -388,14 +274,7 @@
 				52DBAF031C0BCA6900C22BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		52DBAF041C0BCA6900C22BF5 /* Build configuration list for PBXNativeTarget "tableviewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52DBAF051C0BCA6900C22BF5 /* Debug */,
-				52DBAF061C0BCA6900C22BF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
