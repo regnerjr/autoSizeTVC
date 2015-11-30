@@ -14,14 +14,22 @@ class ViewController: UITableViewController {
 		return 10
 	}
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! CustomCell
+	override func tableView(tableView: UITableView,
+		cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+
+		let cell = tableView.dequeueReusableCellWithIdentifier(
+				"Cell", forIndexPath: indexPath) as! CustomCell
+
 		cell.configure("Some Stuff",
-			purple: "SomeStuff that is really long and takes up a lot of room on the screen and maybe breaks onto a second line maybe if I just keep typing i will get a banana")
+			purple: "SomeStuff that is really long and takes up a lot of room " +
+			"on the screen and maybe breaks onto a second line maybe if I just keep " +
+			"typing i will get a banana")
 		return cell
 	}
 
-	override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+	override func tableView(tableView: UITableView,
+		estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+
 		return UITableViewAutomaticDimension
 	}
 
@@ -51,7 +59,7 @@ class CustomCell: UITableViewCell {
 		stack.translatesAutoresizingMaskIntoConstraints = false
 
 		super.init(style: style, reuseIdentifier: reuseIdentifier)
-		
+
 		contentView.backgroundColor = .greenColor()
 		contentView.addSubview(stack)
 	}
@@ -65,7 +73,7 @@ class CustomCell: UITableViewCell {
 		super.updateConstraints()
 	}
 
-	func configure(blue: String, purple: String){
+	func configure(blue: String, purple: String) {
 		label1.text = blue
 		label2.text = purple
 		setNeedsUpdateConstraints()
@@ -75,4 +83,3 @@ class CustomCell: UITableViewCell {
 	    fatalError("init(coder:) has not been implemented")
 	}
 }
-
